@@ -52,7 +52,7 @@ class GeoJsonSource extends Source {
       } else {
         return _data;
       }
-    });
+    }) ?? _data;
   }
 
   double? _maxzoom;
